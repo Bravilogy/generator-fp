@@ -1,0 +1,11 @@
+{
+  "name": "generator-fp",
+  "version": "1.0.0",
+  "description": "Functional programming at its best",
+  "files": [
+      "generators"
+  ],
+  "dependencies": {
+      "yeoman-generator": "^1.0.0"
+  }
+}
