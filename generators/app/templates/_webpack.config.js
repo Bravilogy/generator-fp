@@ -1,7 +1,9 @@
+var path = require('path');
+
 module.exports = {
     entry: './src/app.js',
     output: {
-        path: './public',
+        path: path.resolve(__dirname, 'public'),
         filename: 'bundle.js'
     },
     module: {
@@ -20,6 +22,6 @@ module.exports = {
         inline: true
     },
     resolve: {
-        extensions: ['', '.js', '.jsx']
+        extensions: ['.js', '.jsx']
     }
 };

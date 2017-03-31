@@ -4,6 +4,9 @@
     "scripts": {
         "start": "webpack-dev-server --content-base=public"
     },
+    "devDependencies": {
+        "webpack-dev-server": "^2.4.2"
+    },
     "dependencies": {
         "babel-core": "^6.23.1",
         "babel-loader": "^6.3.0",
