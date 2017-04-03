@@ -5,7 +5,8 @@
         "start": "webpack-dev-server --content-base=public"
     },
     "devDependencies": {
-        "webpack-dev-server": "^2.4.2"
+        "webpack-dev-server": "^2.4.2",
+        "webpack": "^2.3.3"
     },
     "dependencies": {
         "babel-core": "^6.23.1",
