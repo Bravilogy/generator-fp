@@ -1,6 +1,6 @@
 {
     "name": "go-functional",
-    "description": "Functional programming, yo",
+    "description": "Do things functional way",
     "scripts": {
         "start": "webpack-dev-server --content-base=public"
     },
